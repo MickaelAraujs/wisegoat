@@ -60,7 +60,7 @@ body {
 
 .container img {
   width: 235px;
-  animation: fly 1.5s infinite alternate;
+  animation: fly 2s infinite alternate;
 }
 
 @keyframes fly {
