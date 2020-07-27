@@ -1,0 +1,74 @@
+html, body, body * {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  padding: 16px;
+}
+
+.container .title-container {
+  margin-top: 32px;
+  margin-right: 24px;
+}
+
+.container .title-container h1 {
+  color: #BAA193;
+  font-size: 4rem;
+}
+
+.container .title-container h1 span {
+  color: #72005F;
+  font-size: 8rem;
+  display: block;
+}
+
+.container .title-container a {
+  text-decoration: none;
+  background-color: #72005f;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #F5F5F5;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container .title-container a:hover {
+  background-color: #5c024de5;
+}
+
+.container img {
+  width: 235px;
+  animation: fly 1.5s infinite alternate;
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    transform: translateY(-12px) translateX(4px);
+  }
+}
+
